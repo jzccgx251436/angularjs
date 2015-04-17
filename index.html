@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="ebook">
+<head>
+    <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="public/css/bootswatch.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Ebook Shop</title>
+</head>
+<body>
+<div class="container">
+    <div class="row header-box">
+        <div class="col-md-4 logo-holder">
+        <div class="logo"></div>
+        </div>
+        <div class="col-md-8">
+            <div class="col-md-12 social-icon-holder">
+                <a class="btn btn-social-icon btn-twitter div-social-icon">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon div-social-icon">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-twitter div-social-icon">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="row content-box">
+        <ng-view></ng-view>
+    </div>
+
+
+</div>
+<script type="application/javascript" src="public/lib/jquery/dist/jquery.js"></script>
+<script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="public/lib/angularjs/angular-route.min.js"></script>
+<script type="application/javascript" src="public/lib/angularjs/ng-infinite-scroll.js"></script>
+<script type="application/javascript" src="public/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body{
+    background: url("/public/image/bg-pattern.png") repeat;
+}
+.container{
+    margin-top: 30px;
+    width: 1040px;
+}
+.header-box{
+
+}
+.header-box .logo{
+    background: url("/public/image/logo.png") no-repeat scroll 0 0 / 204px auto rgba(0, 0, 0, 0);
+    height: 80px;
+}
+.content-box{
+    margin-top: 35px;
+}
+
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+#search{
+    padding-top: 0px;
+}
+
+.product{
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    margin: 5px 5px 5px 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    min-height: 600px;
+}
+.img-box{
+    margin-top: 10px;
+}
+.left{
+    position: absolute;
+    right: 0px;
+}
+.right{
+    position: absolute;
+    left: 0px;
+}
+.class-image-holder{
+    position: relative;
+}
+.result-holder{
+    margin-top: 30px;
+}
+.product img{
+    height: 300px;
+}
+.product .title{
+    min-height: 50px;
+    font-weight: 600;
+}
+.loading{
+    position: relative;
+}
+.loading .img{
+    position: absolute;
+    right: 45%;
+    top: 30%;
+    z-index: 1000;
+}
+.loading .img img{
+    height: 128px;
+    width: 128px;
+}
+.search-form{
+    font-size: 30px;
+    height: 57px
+}
+.search-btn{
+    font-size: 30px;
+    height: 55px;
+    padding: 0 13px;
+}
+
+.div-social-icon{
+    background-color: #ffffff;
+    border-radius: 180px;
+    color: #afafaf;
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+}
+.social-icon-holder{
+    text-align: right;
+    padding-top: 15px;
+}
+.social-icon-holder a:hover{
+    color: #000000;
+}
+.details{
+    background: none repeat scroll 0 0 #fff;
+    padding: 30px 29px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.books-details, .book-detail-title{
+    padding: 8px;
+}
+.logo-holder{
+    padding: 0px;
+}
+
+
